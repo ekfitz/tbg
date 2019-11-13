@@ -8,71 +8,24 @@ html {
 }
 
 body {
-  background-color: black;
+  margin: none;
+  background-color: #171717;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
-.headerbox {
+.pagetitle {
+  position: absolute;
+  width: 80%;
+  top: 10%;
+  left: 10%;
+  font-size: 5em;
+  color: white;
+}
+
+.titletext {
   position: absolute;
   width: 100%;
-  height: 70vh;
-}
-
-.hugeimage {
-  position: absolute;
-  width: 85vh;
-  top: 30vh;
-  left: -30vh;
-  opacity: 0.7;
-}
-
-.navbar {
-  position: absolute;
-  width: 95%;
-  height: 7.5vh;
-  display: inline-block;
-}
-
-.navbox {
-  position: absolute;
-  height: 100%;
   text-align: center;
-  font-size: 1.25em;
-  cursor: pointer;
-}
-
-
-.navtext {
-  position: absolute;
-  width: 100%;
-  top: 16%;
-}
-
-.hamburger {
-  position: absolute;
-  width: 25%;
-  height: 100%;
-  left: 30%;
-  cursor: pointer;
-}
-
-.hline {
-  position: absolute;
-  width: 100%;
-  height: 5%;
-  background-color: white;
-}
-
-
-#hline1 {
-  top: 15%
-}
-
-#hline2 {
-  top: 35%;
-}
-
-#hline3 {
-  top: 55%;
 }
