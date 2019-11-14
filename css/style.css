@@ -15,21 +15,13 @@ body {
   color: white;*/
 }
 
-.pagetitle {
+.toplogo {
   position: absolute;
-  width: 80%;
-  top: 10%;
-  left: 10%;
-  font-size: 5em;
+  left: 2.5%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 4em;
   color: black;
-  font-family: 'Monsieur La Doulaise', cursive;
-
-}
-
-.titletext {
-  position: absolute;
-  width: 100%;
-  text-align: center;
+  font-weight: 700;
 }
 
 .material-icons.whi {
@@ -37,6 +29,25 @@ body {
   left: 95%;
   color: black;
   opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.navbox {
+  position: absolute;
+  width: 7.5%;
+  top: 3%;
+  left: 80%;
+  font-size: 1em;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navtext {
+  position: absolute;
+  width: 100%;
 }
 
 .inframe {
@@ -48,10 +59,48 @@ body {
   background-color: #F0EBD8;
 }
 
-.toplogo {
+.pagetextbig {
   position: absolute;
-  left: 2.5%;
-  font-family: 'Herr Von Muellerhoff', cursive;
+  width: 40%;
+  top: 30%;
+  left: 10%;
   font-size: 3em;
   color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+}
+
+.pagetextsmall {
+  position: absolute;
+  width: 20%;
+  top: 67%;
+  left: 10%;
+  font-size: 0.75em;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.titletext {
+  position: absolute;
+  width: 100%;
+}
+
+.ctabutton {
+  position: absolute;
+  width: 12%;
+  left: 4%;
+  top: 80%;
+  font-size: 1.25em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btext {
+  position: absolute;
+  width: 100%;
+  border: solid #748CAB;
+  color: #748CAB;
+  border-radius: 1em;
+  border-width: 0.125em;
 }
