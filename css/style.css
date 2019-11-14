@@ -9,10 +9,10 @@ html {
 
 body {
   margin: none;
-  background-color: #171717;
+  background-color: #748CAB;
   overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  /*font-family: Arial, Helvetica, sans-serif;
+  color: white;*/
 }
 
 .pagetitle {
@@ -21,11 +21,37 @@ body {
   top: 10%;
   left: 10%;
   font-size: 5em;
-  color: white;
+  color: black;
+  font-family: 'Monsieur La Doulaise', cursive;
+
 }
 
 .titletext {
   position: absolute;
   width: 100%;
   text-align: center;
+}
+
+.material-icons.whi {
+  position: absolute;
+  left: 95%;
+  color: black;
+  opacity: 0.5;
+}
+
+.inframe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background-color: #F0EBD8;
+}
+
+.toplogo {
+  position: absolute;
+  left: 2.5%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 3em;
+  color: black;
 }
