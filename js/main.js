@@ -59,9 +59,9 @@ btxt1.innerHTML = "Start Today";
 function setMobile() {
   var w = window.innerWidth;
   var h = window.innerHeight;
-  nt3.innerHTML = w;
+//  nt3.innerHTML = w;
 
-  if (w < 850) {
+  if (w < 1000) {
     frame.className = "inframe-m";
     logo.className = "toplogo-m";
     nav1.className = "navbox-m";
@@ -95,7 +95,7 @@ function setMobile() {
     tt2.className = "titletext";
     button.className = "ctabutton";
   }
-    if (w > 1260) {
+    if (w > 1270) {
       titleBox1.className = "pagetextbigHUGE";
       titleBox2.className = "pagetextsmallHUGE";
   }
