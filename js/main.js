@@ -40,6 +40,7 @@ nav3.style.top = "3%";
 nav3.style.left = "88%";
 nav3.style.opacity = "0.7";
 
+
 nt1.innerHTML = "Press";
 nt2.innerHTML = "Design";
 nt3.innerHTML = "Studio";

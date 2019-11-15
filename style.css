@@ -35,16 +35,7 @@ body {
   font-weight: 700;
 }
 
-.toplogo-m {
-  position: absolute;
-  left: 5%;
-  font-family: 'Herr Von Muellerhoff', cursive;
-  font-size: 3em;
-  color: black;
-  font-weight: 700;
-}
-
-.navtext {
+.material-icons.whi {
   position: absolute;
   left: 95%;
   color: black;
@@ -52,24 +43,13 @@ body {
   cursor: pointer;
 }
 
+
 .navbox {
   position: absolute;
   width: 7.5%;
   top: 3%;
   left: 80%;
   font-size: 1em;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  cursor: pointer;
-}
-
-.navbox-m {
-  position: absolute;
-  width: 25%;
-  top: 3%;
-  left: 0%;
-  font-size: 0.7em;
   color: black;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -90,122 +70,45 @@ body {
   background-color: #F0EBD8;
 }
 
-.inframe-m {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0%;
-  left: 0%;
-  background-color: #F0EBD8;
-}
-
 .pagetextbig {
   position: absolute;
   width: 40%;
   max-width: 420px;
-  top: 28%;
+  top: 30%;
   left: 10%;
   font-size: 3em;
   color: black;
   opacity: 0.75;
   font-family: 'Playfair Display', serif;
-  line-height: 1em;
 }
-
-.pagetextbig-m {
-  position: absolute;
-  width: 60%;
-  top: 40%;
-  left: 20%;
-  font-size: 1.7em;
-  color: black;
-  opacity: 0.75;
-  font-family: 'Playfair Display', serif;
-}
-
-.pagetextbigHUGE {
-  position: absolute;
-  width: 40%;
-  max-width: 420px;
-  top: 42%;
-  left: 10%;
-  font-size: 3em;
-  color: black;
-  opacity: 0.75;
-  font-family: 'Playfair Display', serif;
-  line-height: 1em;
-}
-
 
 .pagetextsmall {
   position: absolute;
   width: 20%;
   max-width: 250px;
   min-width: 100px;
-  top: 65%;
-  left: 11%;
+  top: 67%;
+  left: 10%;
   font-size: 0.75em;
   color: black;
   opacity: 0.5;
   font-family: 'Roboto', sans-serif;
 }
 
-.pagetextsmall-m {
-  position: absolute;
-  width: 40%;
-  max-width: 250px;
-  top: 64%;
-  left: 30%;
-  font-size: 0.65em;
-  color: black;
-  opacity: 0.5;
-  font-family: 'Roboto', sans-serif;
-}
-
-.pagetextsmallHUGE {
-  position: absolute;
-  width: 40%;
-  max-width: 250px;
-  top: 72%;
-  left: 11%;
-  font-size: 0.65em;
-  color: black;
-  opacity: 0.5;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-
 .titletext {
   position: absolute;
   width: 100%;
 }
 
-.titletext-m {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-
-
 .ctabutton {
   position: absolute;
   width: 8%;
   min-width: 110px;
-  left: 10%;
-  top: 82%;
-  font-size: 1em;
-  font-weight: 200;
-  cursor: pointer;
-}
-
-.ctabutton-m {
-  position: absolute;
-  width: 40%;
-  left: 30%;
+  left: 5%;
   top: 80%;
   font-size: 1em;
   font-weight: 200;
+  text-align: center;
   cursor: pointer;
 }
 
@@ -218,6 +121,4 @@ body {
   border-width: 0.05em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  text-align: center;
-
 }
