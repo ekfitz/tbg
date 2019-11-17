@@ -13,35 +13,6 @@ body {
   overflow: hidden;
 }
 
-/*
-.checksizes {
-  position: absolute;
-  border: solid purple;
-  width: 110px;
-  height: 300px;
-  top: 67%;
-  left: 10%;
-}
-*/
-
-.toplogo {
-  position: absolute;
-  left: 2.5%;
-  font-family: 'Herr Von Muellerhoff', cursive;
-  font-size: 4em;
-  color: black;
-  font-weight: 700;
-}
-
-.toplogo-m {
-  position: absolute;
-  left: 5%;
-  font-family: 'Herr Von Muellerhoff', cursive;
-  font-size: 3em;
-  color: black;
-  font-weight: 700;
-}
-
 .material-icons.whi {
   position: absolute;
   left: 95%;
@@ -50,44 +21,7 @@ body {
   cursor: pointer;
 }
 
-
-.navtext {
-  position: absolute;
-  color: black;
-  opacity: 0.5;
-  cursor: pointer;
-}
-
-.navbox {
-  position: absolute;
-  width: 7.5%;
-  top: 3%;
-  left: 80%;
-  font-size: 1em;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  cursor: pointer;
-}
-
-.navbox-m {
-  position: absolute;
-  width: 25%;
-  top: 3%;
-  left: 0%;
-  font-size: 1.2em;
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  cursor: pointer;
-}
-
-.navtext {
-  position: absolute;
-  width: 100%;
-}
-
-.inframe {
+.Dgui {
   position: absolute;
   width: 80%;
   height: 80%;
@@ -96,20 +30,32 @@ body {
   background-color: #F0EBD8;
 }
 
-.inframe-m {
+.Dlogo {
   position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0%;
-  left: 0%;
-  background-color: #F0EBD8;
+  left: 3%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 4em;
+  color: black;
+  font-weight: 700;
+  opacity: 0.7;
 }
 
-.pagetextbig {
+.Dnav {
+  position: absolute;
+  width: 7.5%;
+  top: 3%;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Dt1 {
   position: absolute;
   width: 40%;
   max-width: 420px;
-  top: 28%;
+  top: 30%;
   left: 10%;
   font-size: 2.7em;
   color: black;
@@ -118,112 +64,32 @@ body {
   line-height: 1em;
 }
 
-.pagetextbig-m {
-  position: absolute;
-  width: 60%;
-  top: 27%;
-  left: 20%;
-  font-size: 3.2em;
-  color: black;
-  opacity: 0.75;
-  font-family: 'Playfair Display', serif;
-}
-
-.pagetextbigHUGE {
-  position: absolute;
-  width: 40%;
-  max-width: 420px;
-  top: 42%;
-  left: 10%;
-  font-size: 3em;
-  color: black;
-  opacity: 0.75;
-  font-family: 'Playfair Display', serif;
-  line-height: 1em;
-}
-
-
-.pagetextsmall {
+.Dt2 {
   position: absolute;
   width: 20%;
   max-width: 250px;
   min-width: 100px;
   top: 65%;
-  left: 11%;
+  left: 10%;
   font-size: 0.75em;
   color: black;
   opacity: 0.5;
   font-family: 'Roboto', sans-serif;
 }
 
-.pagetextsmall-m {
+.Dbutton {
   position: absolute;
-  width: 50%;
-  max-width: 250px;
-  top: 60%;
-  left: 25%;
-  font-size: 1.2em;
-  color: black;
-  opacity: 0.5;
-  font-family: 'Roboto', sans-serif;
-}
-
-.pagetextsmallHUGE {
-  position: absolute;
-  width: 40%;
-  max-width: 250px;
-  top: 72%;
-  left: 11%;
-  font-size: 0.65em;
-  color: black;
-  opacity: 0.5;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-
-.titletext {
-  position: absolute;
-  width: 100%;
-}
-
-.titletext-m {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-
-
-.ctabutton {
-  position: absolute;
-  width: 8%;
-  min-width: 110px;
+  width: 15%;
   left: 10%;
-  top: 82%;
-  font-size: 1em;
-  font-weight: 200;
-  cursor: pointer;
-}
-
-.ctabutton-m {
-  position: absolute;
-  width: 40%;
-  left: 30%;
   top: 80%;
   font-size: 1em;
+  color: #FF331F;
+  border: solid #FF331F;
+  border-radius: 5em;
+  border-width: 0.05em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  text-align: center;
   font-weight: 200;
   cursor: pointer;
-}
-
-.btext {
-  position: absolute;
-  width: 100%;
-  border: solid #FF331F;
-  color: #FF331F;
-  border-radius: 2em;
-  border-width: 0.05em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  text-align: center;
-
 }
