@@ -1,0 +1,64 @@
+.Mgui {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #F0EBD8;
+}
+
+.Mlogo {
+  position: absolute;
+  left: 2.5%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 4em;
+  color: black;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.Mnav {
+  display: none;
+}
+
+.Mt1 {
+  position: absolute;
+  width: 50%;
+  top: 35%;
+  left: 25%;
+  text-align: center;
+  font-size: 2.7em;
+  color: black;
+  opacity: 0.75;
+  font-family: 'Playfair Display', serif;
+  line-height: 1em;
+}
+
+.Mt2 {
+  position: absolute;
+  width: 50%;
+  top: 65%;
+  left: 25%;
+  font-size: 1em;
+  text-align: center;
+  color: black;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Mbutton {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 85%;
+  font-size: 1em;
+  color: #FF331F;
+  border: solid #FF331F;
+  border-radius: 5em;
+  border-width: 0.05em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-align: center;
+  font-weight: 200;
+
+}

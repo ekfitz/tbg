@@ -1,102 +1,87 @@
 document.body.onload = setMobile;
 window.addEventListener("resize", setMobile);
 
-var frame = document.getElementById("frame");
+var menu = document.getElementById("menu");
+var gui = document.getElementById("gui");
 var logo = document.getElementById("logo");
 var nav1 = document.getElementById("nav1");
 var nav2 = document.getElementById("nav2");
 var nav3 = document.getElementById("nav3");
+var t1 = document.getElementById("t1");
+var t2 = document.getElementById("t2");
+var button1 = document.getElementById("button1");
 
-var nt1 = document.getElementById("nt1");
-var nt2 = document.getElementById("nt2");
-var nt3 = document.getElementById("nt3");
+nav1.style.left = "70%";
+nav2.style.left = "80%";
+nav3.style.left = "90%";
 
-var titleBox1 = document.getElementById("titleBox1");
-var titleBox2 = document.getElementById("titleBox2");
-
-var tt1 = document.getElementById("tt1");
-
-var button = document.getElementById("cta");
-var btxt1 = document.getElementById("btxt1");
-
-frame.className = "inframe";
-
-logo.className = "toplogo";
-logo.innerHTML = "t b g" ;
-
-
-nav1.className = "navbox";
-nav1.style.top = "3%";
-nav1.style.left = "74%";
 nav1.style.opacity = "0.7";
-
-nav2.className = "navbox";
-nav2.style.top = "3%";
-nav2.style.left = "81%";
 nav2.style.opacity = "0.7";
-
-nav3.className = "navbox";
-nav3.style.top = "3%";
-nav3.style.left = "88%";
 nav3.style.opacity = "0.7";
 
 
-nt1.innerHTML = "Press";
-nt2.innerHTML = "Design";
-nt3.innerHTML = "Studio";
+logo.innerHTML = "t b g";
+nav1.innerHTML = "Press";
+nav2.innerHTML = "Studio";
+nav3.innerHTML = "About";
+t1.innerHTML = "Something Motivational Right Here";
+t2.innerHTML = "Maybe some smaller text here to describe what happens when you push the button. It can be in a different font";
+button1.innerHTML = "Start Today";
 
-titleBox1.className = "pagetextbig";
-titleBox2.className = "pagetextsmall";
+menu.onmouseover = highNav;
+menu.onmouseout = regNav;
+nav1.onmouseover = highNav;
+nav1.onmouseout = regNav;
+nav2.onmouseover = highNav;
+nav2.onmouseout = regNav;
+nav3.onmouseover = highNav;
+nav3.onmouseout = regNav;
 
-tt1.className = "titletext";
-tt2.className = "titletext";
-tt1.innerHTML = "Something Motivational Right Here";
-tt2.innerHTML = "Maybe some smaller text here to describe what happens when you push the button. It can be in a different font";
-
-button.className = "ctabutton";
-btxt1.innerHTML = "Start Today";
+button1.onmouseover = highButton;
+button1.onmouseout = regButton;
 
 function setMobile() {
   var w = window.innerWidth;
-  var h = window.innerHeight;
-//  nt3.innerHTML = w;
 
   if (w < 1000) {
-    frame.className = "inframe-m";
-    logo.className = "toplogo-m";
-    nav1.className = "navbox-m";
-    nav2.className = "navbox-m";
-    nav3.className = "navbox-m";
-
-    nav1.style.left = "25%";
-    nav2.style.left = "45%";
-    nav3.style.left = "65%";
-
-    titleBox1.className = "pagetextbig-m";
-    titleBox2.className = "pagetextsmall-m";
-    tt1.className = "titletext-m";
-    tt2.className = "titletext-m";
-    button.className = "ctabutton-m";
-
+    gui.className = "Mgui";
+    logo.className = "Mlogo";
+    nav1.className = "Mnav";
+    nav2.className = "Mnav";
+    nav3.className = "Mnav";
+    t1.className = "Mt1";
+    t2.className = "Mt2";
+    button1.className = "Mbutton";
   } else {
-    frame.className = "inframe";
-    logo.className = "toplogo";
-    nav1.className = "navbox";
-    nav2.className = "navbox";
-    nav3.className = "navbox";
-
-    nav1.style.left = "74%";
-    nav2.style.left = "81%";
-    nav3.style.left = "88%";
-
-    titleBox1.className = "pagetextbig";
-    titleBox2.className = "pagetextsmall";
-    tt1.className = "titletext";
-    tt2.className = "titletext";
-    button.className = "ctabutton";
+    gui.className = "Dgui";
+    logo.className = "Dlogo";
+    nav1.className = "Dnav";
+    nav2.className = "Dnav";
+    nav3.className = "Dnav";
+    t1.className = "Dt1";
+    t2.className = "Dt2";
+    button1.className = "Dbutton";
   }
-    if (w > 1270) {
-      titleBox1.className = "pagetextbigHUGE";
-      titleBox2.className = "pagetextsmallHUGE";
-  }
+}
+
+function highNav() {
+  this.style.opacity = "1";
+  this.style.color = "#FF331F";
+}
+
+function regNav() {
+  this.style.opacity = "0.7";
+  this.style.color = "black";
+}
+
+function highButton() {
+  this.style.backgroundColor = "#FF331F";
+  this.style.color = "white";
+  this.style.opacity = "0.8";
+}
+
+function regButton() {
+  this.style.backgroundColor = "transparent";
+  this.style.color = "#FF331F";
+  this.style.opacity = "0.5";
 }
