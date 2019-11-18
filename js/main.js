@@ -1,6 +1,6 @@
 document.body.onload = setMobile;
 window.addEventListener("resize", setMobile);
-window.addEventListener("scroll", showNext);
+//window.addEventListener("scroll", showNext);
 
 var h = window.innerHeight;
 var menu = document.getElementById("menu");
@@ -51,7 +51,7 @@ button1.onmouseover = highButton;
 button1.onmouseout = regButton;
 
 page2.style.top = "100%";
-page2.style.display = "none";
+//page2.style.display = "none";
 
 t3.innerHTML = "Impactful Statement On Importance Of Customer Experience";
 prot1.innerHTML = "Research";
@@ -90,9 +90,9 @@ function setMobile() {
   }
 }
 
-function showNext() {
-  page2.style.display = "block";
-}
+//function showNext() {
+//  page2.style.display = "block";
+//}
 
 function highNav() {
   this.style.opacity = "1";
