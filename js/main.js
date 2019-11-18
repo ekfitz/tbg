@@ -29,15 +29,6 @@ nav1.style.opacity = "0.7";
 nav2.style.opacity = "0.7";
 nav3.style.opacity = "0.7";
 
-
-logo.innerHTML = "t b g";
-nav1.innerHTML = "Press";
-nav2.innerHTML = "Studio";
-nav3.innerHTML = "About";
-t1.innerHTML = "Something Motivational Right Here";
-t2.innerHTML = "Maybe some smaller text here to describe what happens when you push the button. It can be in a different font";
-button1.innerHTML = "Start Today";
-
 menu.onmouseover = highNav;
 menu.onmouseout = regNav;
 nav1.onmouseover = highNav;
@@ -51,15 +42,7 @@ button1.onmouseover = highButton;
 button1.onmouseout = regButton;
 
 page2.style.top = "100%";
-//page2.style.display = "none";
 
-t3.innerHTML = "Impactful Statement On Importance Of Customer Experience";
-prot1.innerHTML = "Research";
-prot2.innerHTML = "Design";
-prot3.innerHTML = "Create";
-exp1.innerHTML = "Step One";
-exp2.innerHTML = "Step Two";
-exp3.innerHTML = "Step Three";
 function setMobile() {
   var w = window.innerWidth;
 
@@ -75,6 +58,12 @@ function setMobile() {
     page2.className = "Mpage2";
     t3.className = "Mt3";
     pro1.className = "Mprocess";
+    pro2.className = "Mprocess";
+    pro3.className = "Mprocess";
+    exp1.className = "Mexplain";
+    exp2.className = "Mexplain";
+    exp3.className = "Mexplain";
+
   } else {
     gui.className = "Dgui";
     logo.className = "Dlogo";
@@ -87,7 +76,29 @@ function setMobile() {
     page2.className = "Dpage2";
     t3.className = "Dt3";
     pro1.className = "Dprocess";
+    pro2.className = "Dprocess";
+    pro3.className = "Dprocess";
+    exp1.className = "explain";
+    exp2.className = "explain";
+    exp3.className = "explain";
   }
+
+// Adding the styling code here so innerHTML
+// doesn't load before class name
+  logo.innerHTML = "t b g";
+  nav1.innerHTML = "Press";
+  nav2.innerHTML = "Studio";
+  nav3.innerHTML = "About";
+  t1.innerHTML = "Something Motivational Right Here";
+  t2.innerHTML = "Maybe some smaller text here to describe what happens when you push the button. It can be in a different font";
+  button1.innerHTML = "Start Today";
+  t3.innerHTML = "Impactful Statement On Importance Of Customer Experience";
+  prot1.innerHTML = "Research";
+  prot2.innerHTML = "Design";
+  prot3.innerHTML = "Create";
+  exp1.innerHTML = "Step One";
+  exp2.innerHTML = "Step Two";
+  exp3.innerHTML = "Step Three";
 }
 
 //function showNext() {
