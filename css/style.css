@@ -10,12 +10,11 @@ html {
 body {
   margin: none;
   background-color: #748CAB;
+  overflow-x: hidden;
 }
 
 .material-icons.whi {
   position: absolute;
-  left: 95%;
-  color: black;
   opacity: 0.5;
   cursor: pointer;
 }
@@ -98,7 +97,7 @@ body {
   width: 100%;
   height: 100%;
   left: 0%;
-  background-color: #F0EBD8;
+  background-color: #0A2342;
 }
 
 .Dt3 {
@@ -107,12 +106,14 @@ body {
   top: 10%;
   left: 20%;
   font-size: 3em;
+  color: white;
+  opacity: 0.7;
   text-align: center;
 }
 
 .Dprocess {
   position: absolute;
-  width: 15%;
+  width: 10%;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -126,7 +127,7 @@ body {
 .protext {
   position: absolute;
   width: 90%;
-  top: 45%;
+  top: 40%;
   left: 5%;
   font-size: 1.5em;
   color: white;
@@ -136,41 +137,155 @@ body {
 
 .explain {
   position: absolute;
-  width: 15%;
+  width: 10%;
   font-size: 1.25em;
   text-align: center;
   opacity: 0.7;
   cursor: pointer;
+  color: white;
+}
+
+@keyframes bounce {
+  0%   {top: 65%;}
+  25%  {top: 30%;}
+  50%  {top: 60%;}
+  100% {top: 55%;}
+}
+
+@keyframes bounceC {
+  0%   {top: 55%;}
+  25%  {top: 20%;}
+  50%  {top: 50%;}
+  100% {top: 45%;}
+}
+
+@keyframes bounceLeft {
+  0%   {left: 40%;}
+  50%  {left: 100%;}
+  100% {left: 40%;}
+  iterations: infinity;
+}
+
+.page3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  background-color: #6B6D76;
+}
+
+.logo2 {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 7em;
+  color: #FF331F;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+.dt4 {
+  position: absolute;
+  width: 60%;
+  top: 20%;
+  left: 50%;
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+}
+
+.servicelist {
+  position: absolute;
+  width: 22%;
+  top: 40%;
+  left: 6%;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  text-align: right;
+  cursor: pointer;
+}
+
+.description {
+  position: absolute;
+  width: 56%;
+  height: 50%;
+  top: 40%;
+  left: 40%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.5em;
+  line-height: 0.85em;
+  color: #E8C547;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  top: 95%;
+  left: 0%;
+  background-color: #0A2342;
+  display: inline-block;
+}
+
+.copyrightbox {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  left: 40%;
+}
+
+.ctext {
+  position: absolute;
+  width: 75%;
+  left: 10%;
+  top: 23%;
+  font-size: 0.8em;
+  color: white;
+}
+
+#menu {
+  left: 95%;
+  color: black;
 }
 
 #pro1 {
   top: 55%;
-  left: 10%;
+  left: 20%;
   background-color: #2CA58D;
 }
 
 #pro2 {
   top: 45%;
   left: 42.5%;
-  background-color: #0A2342;
+  background-color: #5F4BB6;
 }
 
 #pro3 {
   top: 55%;
-  left: 75%;
+  left: 65%;
   background-color: #845A6D;
 }
 #exp1 {
-  top: 90%;
-  left: 10%;
+  top: 80%;
+  left: 20%;
 }
 
 #exp2 {
-  top: 80%;
+  top: 70%;
   left: 42.5%;
 }
 
 #exp3 {
-  top: 90%;
-  left: 75%;
+  top: 80%;
+  left: 65%;
+}
+
+#cLogo {
+  position: absolute;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 50;
+  top: 25%;
 }

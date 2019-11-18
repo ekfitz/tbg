@@ -10,3 +10,5 @@ Fixed some mobile glitches and some bugs that didn't get fixed during pull reque
 Added better mobile css and made links hover to accent color.
 
 Add second page. This is a more detailed description of work flow. Click on circles to be directed to another page.
+
+Add third page. Clickable content changes description.
